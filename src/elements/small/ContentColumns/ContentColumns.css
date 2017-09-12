@@ -1,0 +1,13 @@
+.ContentColumns {
+  columns: 2 15em;
+  column-gap: 2em;
+  max-width: 62.5rem;
+}
+
+.ContentColumns--three {
+  column-count: 3;
+}
+
+.ContentColumns--four {
+  column-count: 4;
+}

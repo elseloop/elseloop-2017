@@ -1,0 +1,33 @@
+.GridLayout {
+  align-items: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.GridLayout__column > * {
+  margin-bottom: 0;
+}
+
+.GridLayout--2-1 {
+  flex-direction: row-reverse;
+}
+
+.GridLayout--2-1 .GridLayout__column:nth-child(1) {
+  width: 66.66%;
+}
+
+.GridLayout--2-1 .GridLayout__column:nth-child(1) > * {
+  height: 100%;
+}
+
+.GridLayout--2-1 .GridLayout__column:nth-child(2) {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 33.33%;
+}
+
+.GridLayout--2-1 .GridLayout__column:nth-child(2) > * {
+  height: 50%;
+}

@@ -1,0 +1,14 @@
+.Container {
+  margin: 0 auto;
+  max-width: 90em;
+  padding: 3rem;
+}
+
+.Container--stacked {
+  align-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
